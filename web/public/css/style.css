@@ -1,0 +1,126 @@
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbarbuttons {
+    margin-left: 29%;
+}
+
+.btn-outline-dark {
+    color: rgb(52, 58, 64);
+    border-color: rgb(194, 194, 194);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(52, 58, 64);
+}
+
+
+/* Banniere Info */
+
+.rowbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/rowbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    height: 400px;
+}
+
+.h1ban {
+    padding-top: 5%;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    text-shadow: 3px 3px 8px rgb(0, 0, 0)
+}
+
+.bancont {
+    font-size: 18px;
+    padding-top: 3%;
+    padding-left: 28%;
+    text-shadow: 3px 3px 8px rgb(0, 0, 0)
+}
+
+.checkcolor {
+    color: rgb(21, 255, 0);
+}
+
+
+/* Banniere Info Contact */
+
+.bancontenucontact {
+    font-size: 18px;
+    padding-top: 3%;
+    padding-left: 2%;
+    text-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+
+
+/* Contenue 2e container */
+
+.about-content {
+    padding: 80px;
+}
+
+
+/* Carousel */
+
+.carouselbg {
+    background-color: #f3f3f3;
+}
+
+.slidesfont {
+    font-size: 18px;
+}
+
+
+/* Cartes achat */
+
+.h1card {
+    font-size: 20px;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.452)
+}
+
+.h2card {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 8px rgb(0, 0, 0, 0.452)
+}
+
+.topcard1 {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+.topcard2 {
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.btncolor {
+    background: rgb(119, 46, 255);
+    background: linear-gradient(90deg, rgba(119, 46, 255, 1) 0%, rgba(137, 73, 255, 1) 50%, rgba(119, 46, 255, 1) 100%);
+    color: white;
+}
+
+.btncolor2 {
+    color: white;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.h1plans {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    color: #a4508b;
+    color: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}

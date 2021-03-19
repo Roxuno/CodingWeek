@@ -1,0 +1,29 @@
+.rouge{
+    background-color: red;
+    padding: 25px;
+}
+ .pink{
+     background-color: pink;
+     padding: 20px;
+     text-decoration: underline;
+ }
+
+ .white{
+     margin-left: 25%;
+ }
+
+ .green{
+     background-color: green;
+     padding-bottom: 20px;
+ }
+
+ .lasth1{
+     font-size: 15px;
+ }
+ 
+ .txt-blue{
+     background-color: blue;
+     margin-top: 150px;
+     margin-left: 50%;
+     
+ }

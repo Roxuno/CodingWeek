@@ -1,0 +1,42 @@
+#bloc1{
+    background-color: orange;
+    position: relative;
+    height: 300px;
+}
+
+.blocbeige{
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    bottom: 50%;
+    right: 70%;
+}
+
+#bloc2{
+    background-color: yellow;
+    height: 500px;
+}
+
+.blocrose{
+    background-color: pink;
+    height: 60px;
+    width: 60px;
+    position: sticky;
+    top: 0px;
+}
+
+.bloc3{
+    background-color: green;
+    height: 1000px;
+}
+
+.blocblue{
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    bottom: 0%;
+    right: 10%;
+}

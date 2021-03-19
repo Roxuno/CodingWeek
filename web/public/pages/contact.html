@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- favicon -->
+    <link rel="icon" href="../image/icon.ico" type="image/x-icon" />
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Exo+2&family=RocknRoll+One&family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <title>CLOUDY - Contact</title>
+</head>
+
+<body>
+    <header>
+        <!-- Debut navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark p-4">
+            <img src="../image/navbar-icon.png" alt="navbar-logo">
+            <a class="navbar-brand navtitle" href="../../index.html">CLOUDY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto navbarbuttons">
+                    <li class="nav-item mx-3 pl-">
+                        <a class="nav-link navbutton" href="../../index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUITS</a>
+                        <div class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">VPS</a>
+                            <a class="dropdown-item" href="#">HOSTING</a>
+                            <a class="dropdown-item" href="#">DOMAINES</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PACKS</a>
+                        <div class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">VPS + DOMAINE</a>
+                            <a class="dropdown-item" href="#">HOSTING + DOMAINES</a>
+                            <a class="dropdown-item" href="#">VPS + HOSTING + DOMAINE</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">PROMOTIONS</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="./public/pages/contact.html" tabindex="-1">CONTACT</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-1" type="search" placeholder="Chercher..." aria-label="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+        <!-- Fin navbar -->
+    </header>
+    <hr class="m-0">
+    <!-- Debut banniere info -->
+    <section>
+        <div class="container-fluid rowbg">
+            <div class="row text-light">
+                <div class="col-12 text-center">
+                    <h1 class="h1ban">Dites-nous ce qui ne va pas</h1>
+                </div>
+            </div>
+            <div class="row text-light bancontenucontact">
+                <div class="col-12">
+                    <p class="text-center">Contactez nous si vous avez une question ou envoyez nous vos suggestions pour nous aider a ameliorer notre site.</p>
+                </div>
+            </div>
+    </section>
+    <!-- Fin banniere info -->
+    <hr class="m-0">
+    <!-- Debut formulaire -->
+    <section class="my-5">
+        <div class="container py-4 border border-muted border-2 rounded">
+            <h4 class="pb-5">Formulaire de contact</h4>
+            <div class="form-row py-1">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Prénom">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nom">
+                </div>
+            </div>
+            <div class="form-row py-1">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Ville">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Adresse Email">
+                </div>
+            </div>
+            <div class="form-row py-1">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" class="text-muted pl-1 pt-5">Votre message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Cochez cette case</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </div>
+
+            </div>
+            </form>
+        </div>
+    </section>
+    <!-- Fin formulaire -->
+    <hr class="m-0">
+    <!-- Debut Footer -->
+    <footer class="bg-dark">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+                    <p class="font-italic text-white-50">Site crée et developpé par <b>Mohammed B.</b> Tous les droits sont réservés !</p>
+                    <ul class="list-inline mt-4 ">
+                        <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                                    class="fa fa-pinterest"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                                    class="fa fa-vimeo"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-white-50">Produits</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-muted">VPS</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">HOSTING</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">DOMAINES</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-white-50">CONTACT</h6>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-white-50">Newsletter</h6>
+                    <p class="text-muted mb-4"><i><b>Restez au courant des dernières nouvelles de Cloudy.</b></i></p>
+                    <div class="p-1 rounded border">
+                        <div class="input-group">
+                            <input type="email" placeholder="Entrez votre adresse email" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link"><i
+                                        class="fa fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyrights -->
+        <div class="bg-light py-4">
+            <div class="container text-center">
+                <p class="text-muted mb-0 py-2">© 2021 CLOUDY Tous les droits sont réservés.</p>
+            </div>
+        </div>
+        <!-- Copyrights -->
+    </footer>
+    <!-- Fin Footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>

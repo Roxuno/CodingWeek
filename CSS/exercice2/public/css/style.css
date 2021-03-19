@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+.vert{
+    color: green;
+}
+
+.divrouge{
+    text-align: center;
+    background-color: rgb(255, 102, 102);
+    width: 500px;
+    margin: auto;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    color: white;
+}
+
+.txt-black{
+    color: black;
+}
+
+.divbleu{
+    background-color: cyan;
+    width: 400px;
+    margin: auto;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+
+.liste2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.liste2red{
+    color: red;
+}

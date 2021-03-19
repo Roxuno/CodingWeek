@@ -1,0 +1,37 @@
+#bloc1{
+    background-color: purple;
+    position: relative;
+    height: 500px;
+}
+
+.rouge{
+    background-color: red;
+    position: absolute;
+    height: 200px;
+    width: 400px;   
+    top: 10%;
+    left: 20%;
+}
+
+h1{
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+#bloc3{
+    background-image: url(/public/image/simpsons.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+
+.bloc2{
+    height: 300px;
+    background-position: center;
+    background-image: url(/public/image/thunder2.jpg);    
+}
+
+

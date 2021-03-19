@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 247, 236);
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+hr{
+    background-color: blue;
+    height: 2px;
+}
+
+a{
+    font-size: 12px;
+    color: purple;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
